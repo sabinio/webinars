@@ -18,4 +18,3 @@
   - EXEC sp_DeploymentSchedule_i @ReleaseDefinitionName = 'TestDefinition', @ReleaseName = 'TestRelease', @ReleaseDescription = 'Code Change', @ReleaseEnv = 'PreProd'
   - EXEC sp_DeploymentSchedule_u @ReleaseName = 'TestRelease'
 - Check the SentryOne Performance Advisor dashboard for any Alerts.
-
